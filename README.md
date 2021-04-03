@@ -25,7 +25,7 @@ Currently this is the only implementation. If you need to encrypt or decrypt in 
 ## Examples
 
 ```javascript
-const { encrypt, decript } = require('kissmycipher')
+const { encrypt, decrypt } = require('kissmycipher')
 
 // Text encryption - decryption
 encrypted = kissmycipher.encrypt('password', 'hola mundo')
