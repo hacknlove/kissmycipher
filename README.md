@@ -11,7 +11,7 @@ Anything encripted with v1 cannot be decrypted with v2, and viceversa.
 ## Examples
 
 ```javascript
-const { encrypt, decript } = require('kissmycipher')
+const { encrypt, decrypt } = require('kissmycipher')
 
 // Text encryption - decryption
 encrypted = encrypt('password', 'hola mundo')
