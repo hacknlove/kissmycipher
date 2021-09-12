@@ -17,7 +17,11 @@ let isoBuffer;
 if (process.browser) {
   getRandomKey = function getRandomKeyBrowser(length = 32) {
     const randomKey = new Uint8Array(length);
-    window.crypto.getRandomValues(randomKey);
+    if (typeof window === 'undefined') {
+      self.crypto.getRandomValues(randomKey);
+    } else {
+      window.crypto.getRandomValues(randomKey);
+    }
     return randomKey;
   };
   isoBuffer = require('buffer/').Buffer
