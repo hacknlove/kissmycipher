@@ -1,7 +1,6 @@
 const seedrandom = require('seedrandom');
 const base64Url = require('base64url');
-const { cencode } = require('./cencode');
-const { decencode } = require('./decencode');
+const { cencode, decencode } = require('cencode');
 
 const conf = {
   deserializer: (bytes) => decencode(bytes.toString()),

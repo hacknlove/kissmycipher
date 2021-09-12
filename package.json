@@ -1,6 +1,6 @@
 {
   "name": "kissmycipher",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "symmetric-key cipher as strong as you need, It is full customizable, based on PRNG and xor operations, and its code is short and clean without anything obscure or hard to understand",
   "main": "index.js",
   "author": "antonio",
@@ -8,13 +8,12 @@
   "dependencies": {
     "base64url": "^3.0.1",
     "buffer": "^6.0.3",
+    "cencode": "^1.0.0",
     "seedrandom": "^3.0.5"
   },
   "homepage": "https://github.com/hacknlove/kissmycipher",
   "files": [
-    "./index.js",
-    "./cencode.js",
-    "./decencode.js"
+    "./index.js"
   ],
   "repository": {
     "type": "git",
