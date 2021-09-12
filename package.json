@@ -1,6 +1,6 @@
 {
   "name": "kissmycipher",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "symmetric-key cipher as strong as you need, It is full customizable, based on PRNG and xor operations, and its code is short and clean without anything obscure or hard to understand",
   "main": "index.js",
   "author": "antonio",

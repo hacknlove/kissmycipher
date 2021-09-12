@@ -20,7 +20,7 @@ if (process.browser) {
     window.crypto.getRandomValues(randomKey);
     return randomKey;
   };
-  isoBuffer = require('Buffer/').Buffer
+  isoBuffer = require('buffer/').Buffer
 
 } else {
   const crypto = require('crypto');
